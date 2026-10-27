@@ -1,18 +1,17 @@
-# HL1-Bhop-Everything
+# HL1-Bhop-Everything — English
 
-An AI-assisted cookbook for adding GoldSrc-style bunnyhopping to moddable 3D games. Includes a language-independent reference, C++, C# and GDScript math ports, Unity and Unreal integration examples, a runnable Godot project, test vectors, and engine-specific instructions.
+GoldSrc / Half-Life 1 bunnyhop (bhop) movement for Unity, Unreal Engine, Godot and other moddable 3D engines. Includes AI integration instructions, portable C++, C# and GDScript math, examples and tests.
 
-This is an adaptation workflow, not a universal injector. The game must expose a source controller, a modding interface, or a build-specific extension point. Multiplayer needs matching server-side simulation and prediction.
-
-Most detailed tutorials are in Russian. Ask your assistant to translate them while preserving the formulas and validation requirements:
+The full English overview is now the main [README](README.md). Start with the [English step-by-step guide](docs/START-HERE.en.md). [Other languages / 多语言 / Языки](README.md#languages--多语言--языки).
 
 ```text
-Read AGENTS.md and docs/START-HERE.md in this repository.
-Add GoldSrc-style bhop to my game/project at: <PATH>.
-Respond in English and translate the engine-specific guide as needed.
-Preserve collision, normal jump height and input bindings. Identify the engine,
-movement authority, and velocity owner before editing. Implement, build and test
-the result. Report missing engine tests honestly; do not stop at pseudocode.
+Read AGENTS.md and docs/START-HERE.en.md.
+Add classic-bhop to my game/project at <PATH>, with hold-to-jump and a horizontal UPS HUD.
+Identify the engine, unit scale, velocity owner and movement authority first.
+Preserve normal jump height, collision, crouch clearance and input bindings.
+Translate the detailed engine guide into English as needed.
+Implement, build and test the integration; provide installation and rollback.
+Report tests that could not be run honestly.
 ```
 
-Start with [README](README.md), [engine detection](docs/ENGINE-DETECTION.md), [algorithm](docs/ALGORITHM.md), and [test commands](docs/TESTING.md). Check [VALIDATION.md](VALIDATION.md) for what was actually run. MIT license; no proprietary game binaries or Valve sprites included.
+Most detailed engine guides are currently in Russian. A game needs source or a usable mod extension point; multiplayer needs matching server simulation. Check [VALIDATION.md](VALIDATION.md) for the actual test status. [MIT license](LICENSE).
