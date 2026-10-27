@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "game": null,
+  "engine": null,
+  "engine_version": null,
+  "platform_architecture": null,
+  "access_mode": null,
+  "movement_owner": null,
+  "movement_function": null,
+  "collision_function": null,
+  "up_axis": null,
+  "gs_units_per_world_unit": null,
+  "baseline_run_speed_world": null,
+  "physics_timestep": null,
+  "network_authority": null,
+  "selected_preset": null,
+  "original_hashes": {},
+  "evidence": [],
+  "notes": [
+    "Replace nulls only with observed facts. Source, mod-api and binary-investigation are different access modes.",
+    "Keep machine-specific absolute paths in a local working copy; publish portable paths and build identifiers.",
+    "This is a discovery template, not an installation manifest."
+  ]
+}

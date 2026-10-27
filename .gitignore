@@ -1,0 +1,14 @@
+.build/
+bin/
+obj/
+__pycache__/
+*.pyc
+*.exe
+*.pdb
+.godot/
+.vs/
+Library/
+Temp/
+Saved/
+Intermediate/
+Binaries/

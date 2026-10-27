@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "units": "GoldSrc units/second; dt in seconds",
+  "goldsrc-stock": {
+    "accelerate": 10,
+    "airaccelerate": 10,
+    "friction": 4,
+    "stopspeed": 100,
+    "air_wish_cap": 30,
+    "maxspeed": 300,
+    "stock_bunny_limit": true,
+    "auto_jump": true
+  },
+  "classic-bhop": {
+    "accelerate": 10,
+    "airaccelerate": 10,
+    "friction": 4,
+    "stopspeed": 100,
+    "air_wish_cap": 30,
+    "maxspeed": 300,
+    "stock_bunny_limit": false,
+    "auto_jump": true
+  },
+  "notes": "Auto-jump is an independent mod feature. maxspeed and GS/world scale are configurable. Stock limiting in planar examples assumes zero vertical takeoff velocity."
+}

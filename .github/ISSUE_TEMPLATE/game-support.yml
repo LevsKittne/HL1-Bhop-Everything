@@ -1,0 +1,35 @@
+name: Интеграция с игрой или движком
+description: Воспроизводимый запрос поддержки movement
+title: "[Game/Engine] "
+body:
+  - type: input
+    id: game
+    attributes:
+      label: Игра и версия / билд
+    validations:
+      required: true
+  - type: input
+    id: engine
+    attributes:
+      label: Движок, версия, платформа
+      placeholder: Например Godot 4.x, Windows x64
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Какой доступ есть
+      options:
+        - Исходный проект
+        - Mod SDK / поддерживаемый loader
+        - Только готовая сборка
+        - Пока неизвестно
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Что найдено и что проверено
+      description: Контроллер, выбранный профиль, scale, команды сборки и фактическая ошибка. Для минимального примера приложи шаги воспроизведения.
+    validations:
+      required: true
